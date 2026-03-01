@@ -3,6 +3,9 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    int x;
+    printf("Input x = ");
+    scanf("%d", &x);
+    printf("x = %d\n", x);
     return 0;
 }
