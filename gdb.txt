@@ -1,0 +1,15 @@
+gdb main
+list
+b main 
+b 58
+b 78
+info b
+run
+continue или c 
+set disassembly intel
+disas 
+info r 
+info all-r 
+x/64xb 0x61fee0
+x/10xg 0x405168
+x/10s 0x405140
